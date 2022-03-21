@@ -1,0 +1,25 @@
+AMG GT BlackSeries'20
+------------------------------------------------
+
+Installing Instructions:-
+-------------------------
+
+-Drag and drop amgbs folder to game directory
+
+	mods/update/x64/dlcpacks/
+
+-Open OpenIV
+
+-Open location mods/update/update.rpf/common/data
+
+	-Edit file named dlclist.xml
+
+	-Add this line   
+
+
+		<Item>dlcpacks:/amgbs/</Item>
+
+-Save & Done
+
+
+-In game spawn name is amgbs
