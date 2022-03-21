@@ -3,7 +3,7 @@
 <CHandlingDataMgr>
   <HandlingData>
     <Item type="CHandlingData">
-      <handlingName>lp700</handlingName>
+      <handlingName>LP700R</handlingName>
       <fMass value="1600.000000" />
       <fInitialDragCoeff value="2.950000" />
       <fPercentSubmerged value="85.000000" />

@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<CVehicleModelInfoVarGlobal>     
+<CVehicleModelInfoVarGlobal>    
   <Kits>
     <Item>
-      <kitName>1704_lp700_modkit</kitName>
-      <id value="1704" />	 	  
+      <kitName>914_lp700r_modkit</kitName>
+      <id value="914" />	 	  
       <kitType>MKT_SPECIAL</kitType>
       <visibleMods>
         <Item>
-          <modelName>7004lb_bumf_1</modelName>
-          <modShopLabel>7004lb_bumf_1</modShopLabel>
-          <linkedModels />
-          <turnOffBones>
+          <modelName>lp700r_body_1</modelName>
+          <modShopLabel>LP700R_BODY1</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_int_1</Item>
+            <Item>lp700r_int_1a</Item>
+            <Item>lp700r_int_1b</Item>
+            <Item>lp700r_seat_1</Item>
+            <Item>lp700r_steeringwheel_1</Item>
+		  </linkedModels>
+	  <turnOffBones>
             <Item>misc_a</Item>
+            <Item>misc_g</Item>
+            <Item>misc_o</Item>
+            <Item>misc_n</Item>
+            <Item>misc_c</Item>
+            <Item>misc_h</Item>
+            <Item>misc_d</Item>
+            <Item>steeringwheel</Item>
           </turnOffBones>
-          <type>VMT_BUMPER_F</type>
+          <type>VMT_CHASSIS</type>
           <bone>chassis</bone>
           <collisionBone>chassis</collisionBone>
           <cameraPos>VMCP_DEFAULT</cameraPos>
@@ -25,15 +37,22 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>7004lb_hood_1</modelName>
-          <modShopLabel>7004lb_hood_1</modShopLabel>
-          <linkedModels />
-          <turnOffBones>
-            <Item>bonnet</Item>
+          <modelName>lp700r_body_2</modelName>
+          <modShopLabel>LP700R_BODY2</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_bumper_f_3</Item>
+            <Item>lp700r_bumper_r_3</Item>
+            <Item>lp700r_skirt_3</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>bumper_f</Item>
+            <Item>bumper_r</Item>
+            <Item>wing_rf</Item>
+            <Item>wing_lf</Item>
           </turnOffBones>
-          <type>VMT_BONNET</type>
-          <bone>bonnet</bone>
-          <collisionBone>bonnet</collisionBone>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
           <cameraPos>VMCP_DEFAULT</cameraPos>
           <audioApply value="1.000000" />
           <weight value="20" />
@@ -42,117 +61,553 @@
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>7004lb_skirt_1</modelName>
-          <modShopLabel>7004lb_skirt_1</modShopLabel>
+          <modelName>lp700r_body_3</modelName>
+          <modShopLabel>LP700R_BODY3</modShopLabel>
           <linkedModels>
-            <Item>7004lb_bumr_1</Item>
-          </linkedModels>
-          <turnOffBones>
-            <Item>misc_b</Item>
+            <Item>lp700r_int_2</Item>
+            <Item>lp700r_int_2a</Item>
+            <Item>lp700r_int_2b</Item>
+            <Item>lp700r_seat_2</Item>
+            <Item>lp700r_steeringwheel_2</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>misc_g</Item>
+            <Item>misc_o</Item>
+            <Item>misc_n</Item>
+            <Item>misc_c</Item>
+            <Item>misc_h</Item>
+            <Item>misc_d</Item>
+            <Item>steeringwheel</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_body_4</modelName>
+          <modShopLabel>LP700R_BODY4</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_int_3</Item>
+            <Item>lp700r_int_3a</Item>
+            <Item>lp700r_int_3b</Item>
+            <Item>lp700r_seat_3</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>misc_g</Item>
+            <Item>misc_o</Item>
+            <Item>misc_n</Item>
+            <Item>misc_c</Item>
+            <Item>misc_h</Item>
+            <Item>misc_d</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_eng_1</modelName>
+          <modShopLabel>LP700R_SV_1</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_bumper_f_5</Item>
+            <Item>lp700r_bumper_r_4</Item>
+            <Item>lp700r_skirt_4</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>misc_p</Item>
+            <Item>misc_j</Item>
+            <Item>misc_k</Item>
+            <Item>bumper_f</Item>
+            <Item>bumper_r</Item>
+            <Item>wing_rf</Item>
+            <Item>wing_lf</Item>
+          </turnOffBones>
+          <type>VMT_WING_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="true" />
+          <allowBonnetSlide value="false" />
+        </Item>
+        <Item>
+          <modelName>lp700r_skirt_6</modelName>
+          <modShopLabel>LP700R_720_1</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_bumper_f_7</Item>
+            <Item>lp700r_bumper_r_6</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>bumper_f</Item>
+            <Item>bumper_r</Item>
+            <Item>wing_rf</Item>
+            <Item>wing_lf</Item>
+          </turnOffBones>
+          <type>VMT_WING_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="true" />
+          <allowBonnetSlide value="false" />
+        </Item>
+        <Item>
+          <modelName>lp700r_skirt_5</modelName>
+          <modShopLabel>LP700R_BODY4</modShopLabel>
+          <linkedModels>
+            <Item>lp700r_bumper_f_6</Item>
+            <Item>lp700r_bumper_r_5</Item>
+		  </linkedModels>
+	  <turnOffBones>
+            <Item>bumper_f</Item>
+            <Item>bumper_r</Item>
+            <Item>wing_rf</Item>
+            <Item>wing_lf</Item>
+            <Item>misc_f</Item>
+          </turnOffBones>
+          <type>VMT_CHASSIS</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bumper_f_1</modelName>
+          <modShopLabel>LP700R_BUMF1</modShopLabel>
+          <linkedModels />
+	  <turnOffBones>
+            <Item>bumper_f</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>bumper_f</bone>
+          <collisionBone>bumper_f</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bumper_f_2</modelName>
+          <modShopLabel>LP700R_BUMF2</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>bumper_f</bone>
+          <collisionBone>bumper_f</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bumper_f_4</modelName>
+          <modShopLabel>LP700R_BUMF4</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_F</type>
+          <bone>bumper_f</bone>
+          <collisionBone>bumper_f</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bumper_r_1</modelName>
+          <modShopLabel>LP700R_BUMR1</modShopLabel>
+          <linkedModels />
+	  <turnOffBones>
+            <Item>misc_f</Item>
+            <Item>bumper_r</Item>
+          </turnOffBones>
+          <type>VMT_BUMPER_R</type>
+          <bone>bumper_r</bone>
+          <collisionBone>bumper_r</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bumper_r_2</modelName>
+          <modShopLabel>LP700R_BUMR2</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>bumper_r</bone>
+          <collisionBone>bumper_r</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+	<Item>
+          <modelName>lp700r_skirt_1</modelName>
+          <modShopLabel>LP700R_SKIRT1</modShopLabel>
+          <linkedModels />
+	  <turnOffBones>
+            <Item>wing_rf</Item>
+            <Item>wing_lf</Item>
           </turnOffBones>
           <type>VMT_SKIRT</type>
           <bone>chassis</bone>
           <collisionBone>chassis</collisionBone>
           <cameraPos>VMCP_DEFAULT</cameraPos>
           <audioApply value="1.000000" />
-          <weight value="20" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+	<Item>
+          <modelName>lp700r_skirt_2</modelName>
+          <modShopLabel>LP700R_SKIRT2</modShopLabel>
+          <linkedModels />
+           <turnOffBones />
+          <type>VMT_SKIRT</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
           <turnOffExtra value="false" />
           <disableBonnetCamera value="false" />
           <allowBonnetSlide value="true" />
         </Item>
         <Item>
-          <modelName>7004lb_wing_1</modelName>
-          <modShopLabel>7004lb_wing_1</modShopLabel>
+          <modelName>lp700r_wing_1</modelName>
+          <modShopLabel>LP700R_WING1</modShopLabel>
           <linkedModels />
           <turnOffBones>
-            <Item>misc_d</Item>
+	    <Item>misc_f</Item>
           </turnOffBones>
           <type>VMT_SPOILER</type>
-          <bone>chassis</bone>
-          <collisionBone>chassis</collisionBone>
+          <bone>misc_f</bone>
+          <collisionBone>mod_col_7</collisionBone>
           <cameraPos>VMCP_DEFAULT</cameraPos>
           <audioApply value="1.000000" />
-          <weight value="20" />
+          <weight value="0" />
           <turnOffExtra value="false" />
           <disableBonnetCamera value="false" />
           <allowBonnetSlide value="true" />
         </Item>
-				<Item>
-          <modelName>7004lb_glass_1</modelName>
-          <modShopLabel>7004lb_glass_1</modShopLabel>
+        <Item>
+          <modelName>lp700r_wing_2</modelName>
+          <modShopLabel>LP700R_WING2</modShopLabel>
           <linkedModels />
           <turnOffBones>
-            <Item>bonnet</Item>
+	    <Item>misc_f</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>bumper_r</bone>
+          <collisionBone>mod_col_7</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_wing_3</modelName>
+          <modShopLabel>LP700R_WING3</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+	    <Item>misc_f</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>misc_f</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_wing_4</modelName>
+          <modShopLabel>LP700R_WING4</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+	    <Item>misc_f</Item>
+          </turnOffBones>
+          <type>VMT_SPOILER</type>
+          <bone>misc_f</bone>
+          <collisionBone>mod_col_2</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_bonnet_1</modelName>
+          <modShopLabel>LP700R_BON1</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+	    <Item>bonnet</Item>
+          </turnOffBones>
+          <type>VMT_BONNET</type>
+          <bone>bonnet</bone>
+          <collisionBone>bonnet</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_boot_1</modelName>
+          <modShopLabel>LP700R_BOOT1</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+	    <Item>misc_e</Item>
+          </turnOffBones>
+          <type>VMT_GRILL</type>
+          <bone>boot</bone>
+          <collisionBone>boot</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_exh_1</modelName>
+          <modShopLabel>LP700R_EXH1</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+            <Item>misc_b</Item>
+            <Item>exhaust_3</Item>
+            <Item>exhaust_4</Item>
+            <Item>exhaust_2</Item>
+            <Item>exhaust</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>misc_b</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_exh_2</modelName>
+          <modShopLabel>LP700R_EXH2</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+            <Item>misc_b</Item>
+            <Item>exhaust_3</Item>
+            <Item>exhaust_4</Item>
+            <Item>exhaust_2</Item>
+            <Item>exhaust</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>misc_b</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_exh_3</modelName>
+          <modShopLabel>LP700R_EXH3</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+            <Item>misc_b</Item>
+            <Item>exhaust_3</Item>
+            <Item>exhaust_4</Item>
+            <Item>exhaust_2</Item>
+            <Item>exhaust</Item>
+          </turnOffBones>
+          <type>VMT_EXHAUST</type>
+          <bone>misc_b</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+        <Item>
+          <modelName>lp700r_roof_1</modelName>
+          <modShopLabel>LP700R_ROOF</modShopLabel>
+          <linkedModels />
+          <turnOffBones>
+            <Item>misc_w</Item>
           </turnOffBones>
           <type>VMT_ROOF</type>
           <bone>chassis</bone>
           <collisionBone>chassis</collisionBone>
           <cameraPos>VMCP_DEFAULT</cameraPos>
           <audioApply value="1.000000" />
-          <weight value="20" />
-          <turnOffExtra value="false" />
-          <disableBonnetCamera value="false" />
-          <allowBonnetSlide value="true" />
-        </Item>
-				<Item>
-          <modelName>7004lb_glass_2</modelName>
-          <modShopLabel>7004lb_glass_2</modShopLabel>
-          <linkedModels />
-          <turnOffBones>
-            <Item>bonnet</Item>
-          </turnOffBones>
-          <type>VMT_ROOF</type>
-          <bone>chassis</bone>
-          <collisionBone>chassis</collisionBone>
-          <cameraPos>VMCP_DEFAULT</cameraPos>
-          <audioApply value="1.000000" />
-          <weight value="20" />
-          <turnOffExtra value="false" />
-          <disableBonnetCamera value="false" />
-          <allowBonnetSlide value="true" />
-        </Item>
-				<Item>
-          <modelName>7004lb_glass_3</modelName>
-          <modShopLabel>7004lb_glass_3</modShopLabel>
-          <linkedModels />
-          <turnOffBones>
-            <Item>bonnet</Item>
-          </turnOffBones>
-          <type>VMT_ROOF</type>
-          <bone>chassis</bone>
-          <collisionBone>chassis</collisionBone>
-          <cameraPos>VMCP_DEFAULT</cameraPos>
-          <audioApply value="1.000000" />
-          <weight value="20" />
-          <turnOffExtra value="false" />
-          <disableBonnetCamera value="false" />
-          <allowBonnetSlide value="true" />
-        </Item>
-				<Item>
-          <modelName>7004lb_glass_4</modelName>
-          <modShopLabel>7004lb_glass_4</modShopLabel>
-          <linkedModels />
-          <turnOffBones>
-            <Item>bonnet</Item>
-          </turnOffBones>
-          <type>VMT_ROOF</type>
-          <bone>chassis</bone>
-          <collisionBone>chassis</collisionBone>
-          <cameraPos>VMCP_DEFAULT</cameraPos>
-          <audioApply value="1.000000" />
-          <weight value="20" />
+          <weight value="0" />
           <turnOffExtra value="false" />
           <disableBonnetCamera value="false" />
           <allowBonnetSlide value="true" />
         </Item>
       </visibleMods>
       <linkMods>
-        <Item>
-          <modelName>7004lb_bumr_1</modelName>
+	<Item>
+          <modelName>lp700r_int_1</modelName>
           <bone>chassis</bone>
           <turnOffExtra value="false" />
         </Item>
-	</linkMods>
+	<Item>
+          <modelName>lp700r_int_1a</modelName>
+          <bone>door_pside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_1b</modelName>
+          <bone>door_dside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_seat_1</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_steeringwheel_1</modelName>
+          <bone>steeringwheel</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_2a</modelName>
+          <bone>door_pside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_2b</modelName>
+          <bone>door_dside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_seat_2</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_3</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_3a</modelName>
+          <bone>door_pside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_int_3b</modelName>
+          <bone>door_dside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_seat_3</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_steeringwheel_2</modelName>
+          <bone>steeringwheel</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_f_6</modelName>
+          <bone>bumper_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_r_5</modelName>
+          <bone>bumper_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_f_5</modelName>
+          <bone>bumper_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_r_4</modelName>
+          <bone>bumper_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_skirt_4</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_f_3</modelName>
+          <bone>bumper_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_r_3</modelName>
+          <bone>bumper_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_skirt_3</modelName>
+          <bone>chassis</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_f_7</modelName>
+          <bone>bumper_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	<Item>
+          <modelName>lp700r_bumper_r_6</modelName>
+          <bone>bumper_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+      </linkMods>
       <statMods>
         <Item>
           <identifier />
@@ -530,48 +985,53 @@
         </Item>
         <Item>
           <identifier />
-          <modifier value="5" />
+          <modifier value="1" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_SUSPENSION</type>
         </Item>
         <Item>
           <identifier />
-          <modifier value="10" />
+          <modifier value="2" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_SUSPENSION</type>
         </Item>
         <Item>
           <identifier />
-          <modifier value="15" />
+          <modifier value="3" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_SUSPENSION</type>
         </Item>
         <Item>
           <identifier />
-          <modifier value="20" />
+          <modifier value="4" />
           <audioApply value="1.000000" />
           <weight value="0" />
           <type>VMT_SUSPENSION</type>
         </Item>
       </statMods>
       <slotNames />
+        <Item>
+          <slot>VMT_CHASSIS</slot>
+          <name>TOP_CAGE</name>
+        </Item>
       <liveryNames />
     </Item>
+
   </Kits>
-  <Lights>
+    <Lights>
     <Item>
-      <id value="1247" />	
+      <id value="924" />	
       <indicator>
         <intensity value="0.375000" />
         <falloffMax value="2.500000" />
         <falloffExponent value="8.000000" />
-        <innerConeAngle value="20.000000" />
-        <outerConeAngle value="50.000000" />
+        <innerConeAngle value="30.000000" />
+        <outerConeAngle value="80.000000" />
         <emmissiveBoost value="false" />
-        <color value="0xFFFF7300" />
+        <color value="0xFFFF8000" />
       </indicator>
       <rearIndicatorCorona>
         <size value="0.000000" />
@@ -608,23 +1068,23 @@
         <falloffMax value="4.000000" />
         <falloffExponent value="16.000000" />
         <innerConeAngle value="45.000000" />
-        <outerConeAngle value="170.000000" />
+        <outerConeAngle value="90.000000" />
         <emmissiveBoost value="false" />
         <color value="0xFFFF0000" />
       </tailLight>
       <tailLightCorona>
-        <size value="1.200000" />
-        <size_far value="2.500000" />
-        <intensity value="1.000000" />
+        <size value="0.900000" />
+        <size_far value="5.300000" />
+        <intensity value="4.000000" />
         <intensity_far value="1.000000" />
-        <color value="0xFFFF0505" />
-        <numCoronas value="1" />
-        <distBetweenCoronas value="23" />
-        <distBetweenCoronas_far value="23" />
+        <color value="0xFFFF1E05" />
+        <numCoronas value="0" />
+        <distBetweenCoronas value="0.1" />
+        <distBetweenCoronas_far value="20.5" />
         <xRotation value="0.000000" />
         <yRotation value="0.000000" />
-        <zRotation value="0.000000" />
-        <zBias value="0.250000" />
+        <zRotation value="5.667000" />
+        <zBias value="0.000000" />
         <pullCoronaIn value="false" />
       </tailLightCorona>
       <tailLightMiddleCorona>
@@ -634,6 +1094,32 @@
         <intensity_far value="0.000000" />
         <color value="0x00000000" />
         <numCoronas value="0" />
+        <distBetweenCoronas value="25" />
+        <distBetweenCoronas_far value="25" />
+        <xRotation value="0.000000" />
+        <yRotation value="0.000000" />
+        <zRotation value="0.000000" />
+        <zBias value="0.000000" />
+        <pullCoronaIn value="false" />
+      </tailLightMiddleCorona>
+      <headLight>
+        <intensity value="1.000000" />
+        <falloffMax value="35.000000" />
+        <falloffExponent value="16.000000" />
+        <innerConeAngle value="0.000000" />
+        <outerConeAngle value="60.209999" />
+        <emmissiveBoost value="false" />
+        <color value="0xFFFFFFCC" />
+        <textureName>VehicleLight_car_oldsquare</textureName>
+        <mirrorTexture value="true" />
+      </headLight>
+      <headLightCorona>
+        <size value="0.100000" />
+        <size_far value="10.000000" />
+        <intensity value="5.000000" />
+        <intensity_far value="1.000000" />
+        <color value="0xFFFFFFFF" />
+        <numCoronas value="1" />
         <distBetweenCoronas value="128" />
         <distBetweenCoronas_far value="255" />
         <xRotation value="0.000000" />
@@ -641,39 +1127,13 @@
         <zRotation value="0.000000" />
         <zBias value="0.250000" />
         <pullCoronaIn value="false" />
-      </tailLightMiddleCorona>
-      <headLight>
-        <intensity value="1.500000" />
-        <falloffMax value="35.000000" />
-        <falloffExponent value="16.000000" />
-        <innerConeAngle value="0.000000" />
-        <outerConeAngle value="60.000000" />
-        <emmissiveBoost value="false" />
-        <color value="0xFF7FA7E3" />
-        <textureName>VehicleLight_car_LED2</textureName>
-        <mirrorTexture value="false" />
-      </headLight>
-      <headLightCorona>
-        <size value="0.100000" />
-        <size_far value="7.000000" />
-        <intensity value="7.000000" />
-        <intensity_far value="5.000000" />
-        <color value="0xFF61A5FF" />
-        <numCoronas value="0" />
-        <distBetweenCoronas value="34" />
-        <distBetweenCoronas_far value="1" />
-        <xRotation value="0.000000" />
-        <yRotation value="1.175000" />
-        <zRotation value="0.302000" />
-        <zBias value="0.250000" />
-        <pullCoronaIn value="false" />
       </headLightCorona>
       <reversingLight>
         <intensity value="0.500000" />
-        <falloffMax value="7.200000" />
+        <falloffMax value="4.000000" />
         <falloffExponent value="32.000000" />
-        <innerConeAngle value="20.000000" />
-        <outerConeAngle value="78.000000" />
+        <innerConeAngle value="45.000000" />
+        <outerConeAngle value="90.000000" />
         <emmissiveBoost value="false" />
         <color value="0xFFFFFFFF" />
       </reversingLight>
@@ -692,7 +1152,7 @@
         <zBias value="0.250000" />
         <pullCoronaIn value="false" />
       </reversingLightCorona>
-      <name>lp700</name>
+      <name>lp700r</name>
     </Item>
-  </Lights>	
+    </Lights>
 </CVehicleModelInfoVarGlobal>
