@@ -1,0 +1,14 @@
+Instructions
+
+1)Put bmm folder in Grand Theft Auto V\update\x64\dlcpacks
+
+2) With OpenIV go to Grand Theft Auto V\update\update.rpf\common\data or if you have a mods folder go to Grand Theft Auto V\mods\update\update.rpf\common\data
+ and extract dlclist.xml anywhere you want open it with notepad,
+
+ add this line <Item>dlcpacks:\mcgt4\</Item> and save it.
+
+3) Put the modified dlclist.xml back to Grand Theft Auto V\update\update.rpf\common\data or Grand Theft Auto V\mods\update\update.rpf\common\data for mods folder users and close OpenIV.
+
+4) Ingame spawn the car with any trainer by the name ( mcgt4 ).
+
+
